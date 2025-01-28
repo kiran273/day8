@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html> 
+
+<head> 
+    <title>First Child</title>
+</head>
+
+<body> 
+    <script>
+        let myMovie = {
+            title: "Race Gurram",
+            rating: 4
+        };
+        
+        let card = `
+        <div class="movie-card">
+            <h3>${myMovie.title}</h3>
+            <p>Rating: ${myMovie.rating}/5</p>
+        </div>`;
+        document.body.innerHTML += card;
+    </script>
+</body>
+
+</html>
